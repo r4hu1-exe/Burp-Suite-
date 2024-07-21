@@ -1,0 +1,35 @@
+
+==============jdk-8u202===========================
+
+https://download.oracle.com/otn/java/jdk/8u202-b08/1961070e4c9b4e26a04e7f5a083f551e/jdk-8u202-linux-x64.tar.gz
+
+In case you have already downloaded the ZIP file follow these steps.
+=======================================================================================================
+Run the following command to unzip your file.
+
+tar -xvf ~/Downloads/jdk-8u202-linux-x64.tar.gz
+sudo mkdir -p /usr/lib/jvm/jdk1.8.0_202
+sudo mv jdk1.7.0_03/* /usr/lib/jvm/jdk1.8.0_202/
+sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk1.8.0_202/bin/java" 1
+sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk1.8.0_202/bin/javac" 1
+sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/lib/jvm/jdk1.8.0_202/bin/javaws" 1
+==================================================================================================================
+After installation is complete, set environment variables as follows.
+
+Edit the system path in file /etc/profile:
+
+$ sudo gedit /etc/profile
+
+Add the following lines at the end.
+
+JAVA_HOME=/usr/lib/jvm/jdk1.8.0_202
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
+export JAVA_HOME
+export PATH
+
+=============================================================================
+
+Replace the path of your Keygen File and Burpsuite File...
+
+java -Xbootclasspath/p:/home/r4hu1exe/Documents/Burpsuite/keygen.jar -jar /home/r4hu1exe/Documents/Burpsuite/burpsuite.jar
+
