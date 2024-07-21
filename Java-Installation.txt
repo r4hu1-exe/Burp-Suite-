@@ -9,7 +9,7 @@ Run the following command to unzip your file.
 
 tar -xvf ~/Downloads/jdk-8u202-linux-x64.tar.gz
 sudo mkdir -p /usr/lib/jvm/jdk1.8.0_202
-sudo mv jdk1.7.0_03/* /usr/lib/jvm/jdk1.8.0_202/
+sudo mv jdk1.8.0_202/* /usr/lib/jvm/jdk1.8.0_202/
 sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk1.8.0_202/bin/java" 1
 sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk1.8.0_202/bin/javac" 1
 sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/lib/jvm/jdk1.8.0_202/bin/javaws" 1
