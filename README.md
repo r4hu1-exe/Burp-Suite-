@@ -9,7 +9,9 @@ Burp-Suite Professional v1.7.37 Cracked
 1. **Download JDK 8u202:**
    - Download JDK 8u202 from Oracle's website using the provided link:
      ```
-     [JDK 8u202 Download Link](https://download.oracle.com/otn/java/jdk/8u202-b08/1961070e4c9b4e26a04e7f5a083f551e/jdk-8u202-linux-x64.tar.gz)
+     [JDK 8u202 Download Link]
+     (https://mirrors.huaweicloud.com/java/jdk/8u202-b08/jdk-8u202-linux-x64.tar.gz)
+   
      ```
 
 2. **Extract JDK Archive:**
