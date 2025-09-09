@@ -52,7 +52,7 @@ Burp-Suite Professional v1.7.37 Cracked
 
 ## Running Burp Suite with Custom Classpath
 
-Replace the placeholders (`/path/to/keygen.jar` and `/path/to/burpsuite.jar`) with the actual paths to your keygen and Burp Suite JAR files:
+Replace the placeholders (`/path/to/burp-loader-keygen.jar` and `/path/to/burpsuite.jar`) with the actual paths to your keygen and Burp Suite JAR files:
 
 ```bash
-java -Xbootclasspath/p:/path/to/keygen.jar -jar /path/to/burpsuite.jar
+java -Xbootclasspath/p:/path/to/burp-loader-keygen.jar -jar /path/to/burpsuite.jar
